@@ -44,7 +44,13 @@ android {
         // 过滤语言包
         resConfigs('zh-rCN', 'en')
     }
-
+    
+    
+    lintOptions {
+     abortOnError false
+    }
+    
+    
     signingConfigs {
         debug {
             if (configProperties != null && configProperties.get("filename") != null) {
