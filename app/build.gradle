@@ -23,8 +23,8 @@ android {
 
     defaultConfig {
         applicationId "me.wsj.fengyun"
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 27
+        targetSdkVersion 33
         versionCode 25
         versionName "2.0.8"
 
