@@ -20,7 +20,6 @@ publishConfig {
 
 android {
     compileSdkVersion 30
-
     defaultConfig {
         applicationId "me.wsj.fengyun"
         minSdkVersion 27
